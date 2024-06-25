@@ -1,0 +1,421 @@
+.head {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+  position: fixed;
+  z-index: 999;
+  transition: top 0.3s ease-in-out;
+  padding: 0px 20px;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.menu-x {
+  padding-right: 20px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburing {
+  text-align: end;
+  width: 70%;
+}
+
+.menunav {
+  height: 60px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: .9s;
+
+
+}
+
+.menunav ul {
+  background-color: black;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+
+}
+
+.mediaoption {
+  position: relative;
+  z-index: 4;
+  background-color: black;
+  transition: .3s;
+}
+
+.mediaoption:hover ul {
+  top: 26px;
+}
+
+.mediaoption ul {
+  font-size: 15px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: -6;
+  gap: 10px;
+  width: 150px;
+  top: -150px;
+}
+
+.mediaoption ul li {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  text-align: flex-start;
+  align-items: center;
+  border: none;
+  color: white;
+  border: 3px transparent;
+
+}
+
+.menunav li {
+  background-color: black;
+  border-bottom: 3px solid black;
+  transition: .2s;
+}
+
+.menunav li:hover {
+  border-bottom: 3px solid cyan;
+  color: cyan;
+
+}
+
+.menunav button {
+  border: none;
+  background: radial-gradient(circle, #09dcc0fd, #37ac75);
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 4px 19px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+.menunav button:hover {
+  background: radial-gradient(circle, #04b099fd, #02f737);
+  font-weight: 500;
+}
+
+
+.navicon {
+  display: flex;
+  gap: 10px;
+
+}
+
+.navicon a {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+
+}
+
+.hamburgerbar {
+  margin-right: 20px;
+  font-size: 60px;
+  font-weight: bolder;
+  background: linear-gradient(49deg, rgba(9, 9, 121, 1) 15%, rgba(0, 212, 255, 1) 50%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.none {
+  display: none;
+}
+
+.menu-icon {
+
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+
+.hamburgermedia {
+  display: none;
+}
+
+
+
+/* Bars Styles */
+
+.msgbar,
+.demobar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    border-radius: 50px;
+    height: 55px;
+    background: linear-gradient(135deg, #00FFAA 0%, #00BBFF 53.09%, #4579F5 100%);
+    padding: 10px;
+    right: -145px;
+    transition: right 0.6s;
+}
+.fixedicop {
+  color: #00d8db;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.7s;
+}
+
+.msgbar {
+    top: 485px; 
+}
+
+.demobar {
+    top: 550px; 
+}
+
+/* Hover Effects */
+
+.msgbar:hover,
+.demobar:hover {
+    right: 2px;
+}
+
+.msgbar:hover .fixedicop,
+.demobar:hover .fixedicop {
+    transform: rotate(360deg);
+    
+}
+
+
+
+
+
+@media (max-width:768px) {
+  .hamburing {
+    display: none;
+  }
+
+  .head {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+    position: fixed;
+    z-index: 999;
+    transition: top 0.3s ease-in-out;
+    /* padding: 0px 20px; */
+  }
+
+  .logo {
+    padding-left: 0px;
+    width: 80px;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .hamburgermedia {
+    position: relative;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .menuna {
+    width: 150px;
+    background-color: rgb(22, 23, 22);
+    position: absolute;
+    top: -14px;
+    right: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 6px;
+    padding: 10px;
+  }
+
+  .menuna ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 10px;
+  }
+
+  .menuna li {
+    padding: 5px 15px 5px 0px;
+    margin-bottom: 10px;
+    text-align: start;
+
+  }
+
+  .menuna li:hover {
+    border-bottom: 3px solid cyan;
+
+  }
+
+  .menuna button {
+    border: none;
+    background: radial-gradient(circle, #09dcc0fd, #37ac75);
+    color: white;
+    font-size: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 4px 19px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .navicon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+
+  .navicon a {
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+
+  .exit {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+  }
+
+
+  .mediaoption {
+    position: relative;
+    z-index: 4;
+    background-color: rgb(22, 23, 22);
+
+    transition: .3s;
+  }
+
+
+
+  .mediaoption:hover ul {
+    top: 5px;
+    right: 65px;
+    color: white;
+  }
+
+  .mediaoption ul {
+    background-color: rgb(22, 23, 22);
+    padding: 5px;
+    font-size: 8px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: -6;
+    color: black;
+    gap: 12px;
+    width: 100px;
+    top: -140px;
+    border-radius: 6px;
+  }
+
+  .mediaoption ul li {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+    border: none;
+    border: 3px transparent;
+
+  }
+
+  
+/* Bars Styles */
+
+.msgbar,
+.demobar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    border-radius: 50px;
+    height: 70px;
+    background: linear-gradient(135deg, #00FFAA 0%, #00BBFF 53.09%, #4579F5 100%);
+    padding: 2px;
+    right: 1px;
+    gap: 2px;
+    transition: right 0.6s;
+    font-size: 5px;
+}
+
+.msgbar {
+    top: 435px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.demobar {
+    top: 520px; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hover Effects */
+
+.msgbar:hover,
+.demobar:hover {
+    right: 2px;
+}
+
+.msgbar:hover .fixedicop,
+.demobar:hover .fixedicop {
+    transform: rotate(360deg);
+    
+}
+.fixedicop {
+  color: #00d8db;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.7s;
+}
+
+}

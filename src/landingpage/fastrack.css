@@ -1,0 +1,159 @@
+.fastsec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    margin-bottom: 60px;
+
+}
+
+.fasthead {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fasthead h1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.813rem;
+}
+
+.fasthead p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+}
+
+.fastcards {
+    width: 60%;
+    overflow: scroll;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    padding-top: 10px;
+}
+
+.fastcards::-webkit-scrollbar {
+    display: none;
+}
+
+.fastcard {
+    width: 60%;
+    border-left: 2px solid white;
+
+    padding: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fastcard p {
+    font-size: 1.563rem;
+}
+
+.fastcard h2 {
+    position: absolute;
+    top: -40px;
+    font-size: 2.5rem;
+}
+
+.point {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    transform: translateY(-50%) rotate(45deg);
+    transition: transform 0.3s ease, color 0.2s ease;
+}
+
+.fastcard:hover .point {
+    transform: translateY(-50%) rotate(-43deg);
+    background: #0F9998;
+
+}
+
+.fastcard:hover h2 {
+    background: linear-gradient(49deg, rgba(9, 9, 121, 1) 15%, rgba(0, 212, 255, 1) 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:768px) {
+    .fasthead {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fasthead h1 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+    
+    .fasthead p {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: .7rem;
+        text-align: center;
+    }
+    .fastcards {
+        width: 100%;
+        overflow: scroll;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        scroll-behavior: smooth;
+        padding-top: 10px;
+    }
+
+    .fastcard {
+        width: 60%;
+        border-left: 2px solid white;
+        padding: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fastcard p {
+        font-size: .730rem;
+        font-weight: 100;
+    }
+    
+    .fastcard h2 {
+        position: absolute;
+        top: -10px;
+        font-size: 0.800rem;
+    }
+    .point {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        position: absolute;
+        left: -6px;
+        top: 8px;
+        transform: translateY(-50%) rotate(45deg);
+        transition: transform 0.3s ease, color 0.2s ease;
+    }
+}

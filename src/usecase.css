@@ -1,0 +1,259 @@
+.usecasesec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 130px;
+    padding: 90px 0px;
+}
+
+.userelsec {
+    padding-top: 150px;
+    width: 90%;
+    display: flex;
+    gap: 30px;
+}
+
+.usesectioncont {
+    width: 40%;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.usesectioncont h1 {
+    width: 100%;
+    text-align: justify;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.usesectioncont p {
+    line-height: 40px;
+    width: 90%;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.usesechead {
+    width: 60%;
+    position: relative;
+
+}
+
+.usesechead h1 {
+    background: linear-gradient(49deg, rgb(251, 251, 252) 15%, rgb(250, 250, 250) 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    position: absolute;
+    top: 80px;
+    left: -100px;
+    z-index: 9;
+    width: 103%;
+}
+
+.usesechead h2 {
+    color: rgb(17, 17, 17);
+    position: absolute;
+    z-index: 6;
+    top: 100px;
+    font-size: 180px;
+}
+
+
+
+
+.usecasesec1 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.usecasesecimg1 {
+    width: 50%;
+}
+.usecasesecimg1 img{
+    width: 100%;
+}
+
+.usecasesec1cont {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.usecasesec1cont h1 {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.usecasesec1cont p {
+    width: 80%;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.usecasesec2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.usecasesec2cont {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.usecasesec2cont h1 {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.usecasesec2cont p {
+    width: 80%;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.usecasesecimg2 {
+    width: 50%;
+}
+.usecasesecimg2 img{
+    width: 100%;
+}
+
+@media (max-width:768px) {
+
+
+
+    .userelsec {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        /* flex-direction: column-reverse; */
+    }
+
+    .usesectioncont {
+        width: 100%;
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .usesectioncont h1 {
+        width: 90%;
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .usesectioncont p {
+        line-height: 30px;
+        width: 90%;
+        text-align: justify;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .usesechead {
+        width: 100%;
+        position: relative;
+        height: 80px;
+
+    }
+
+    .usesechead h1 {
+        background: linear-gradient(49deg, rgb(251, 251, 252) 15%, rgb(250, 250, 250) 50%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2.5rem;
+        position: absolute;
+        top: 60px;
+        left: -30px;
+        z-index: 9;
+        width: 103%;
+    }
+
+    .usesechead h2 {
+        color: rgb(24, 23, 23);
+        position: absolute;
+        z-index: 6;
+        top: 70px;
+        font-size: 3.75rem;
+    }
+
+
+
+    .usecasesecimg1 {
+        width: 50%;
+        height: 150px;
+    }
+    
+
+    .usecasesecimg1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .usecasesec1cont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .usecasesec1cont h1 {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .usecasesec1cont p {
+        width: 100%;
+        text-align: justify;
+        line-height: 40px;
+        font-size: 10px;
+    }
+
+
+    .usecasesec2cont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .usecasesec2cont h1 {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .usecasesec2cont p {
+        width: 100%;
+        text-align: justify;
+        line-height: 40px;
+        font-size: 10px;
+    }
+
+    .usecasesecimg2 {
+        width: 50%;
+        height: 150px;
+    }
+
+}

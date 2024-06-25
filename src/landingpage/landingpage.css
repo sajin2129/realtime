@@ -1,0 +1,10 @@
+.landingpag{
+    width: 100%;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,25 @@
+.contactfoot{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: column;
+}
+.contactfooter{
+    padding: 60px;
+    width: 80%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contsecback{
+    background: linear-gradient(115deg, #0c0c0c, #292929);
+    border-radius:6px ;
+    border: 2px solid rgb(78, 76, 76);
+    
+}
+

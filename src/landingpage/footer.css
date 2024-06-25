@@ -1,0 +1,204 @@
+.footersection {
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topfooter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+} 
+
+.foterlogo {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.options h2 {
+    font-size: 30px;
+    background: radial-gradient(circle, #09dcc0fd, #37ac75);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.options ul {
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.options li {
+    list-style: none;
+    padding: 20px 0px;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+.options li:hover {
+    color: #37ac75;
+    letter-spacing: 3px;
+
+}
+
+.optionside {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.options {
+    width: 25%;
+}
+
+.botmicon {
+
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.botmicon a {
+    color: white;
+}
+
+.bottomfooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+@media (max-width:768px) {
+
+    .foterlogo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .optionside {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .options {
+        width: 50%;
+        text-align: center;
+    }
+
+    .options h2 {
+        font-size: 1.25rem;
+
+    }
+
+    .options ul {
+        list-style: none;
+        padding: 5px 0px;
+        text-align: center;
+    }
+
+    .options li {
+        list-style: none;
+        padding: 10px 0px;
+        font-size: 15px;
+        transition: 0.7s;
+    }
+
+    .botmicon {
+
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+    .bottomfooter {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width:748px) {
+
+    .foterlogo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .optionside {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .options {
+        width: 100%;
+        text-align: left;
+    }
+
+    .options h2 {
+        font-size: .9rem;
+
+    }
+
+    .options ul {
+        list-style: none;
+        padding: 5px 0px;
+        text-align: left;
+    }
+
+    .options li {
+        list-style: none;
+        padding: 5px 0px;
+        width: 50%;
+        font-size: 10px;
+        transition: 0.7s;
+    }
+
+    .botmicon {
+
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+    .bottomfooter {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        font-size: 12px;
+    }
+
+}

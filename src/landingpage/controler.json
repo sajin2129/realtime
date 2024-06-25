@@ -1,0 +1,30 @@
+{
+    "controlfile": [
+        {
+            "id": 1,
+            "name":"Report",
+            "video":"assets/report-v1.gif"
+        },
+        {
+            "id": 2,
+            "name":"Market Place",
+            "video":"assets/report-v2.gif"
+        },
+        {
+            "id": 3,
+            "name":"Active & closed Borrowing",
+            "video":"assets/report-3.gif"
+        },
+        {
+            "id": 4,
+            "name":"Activity Log",
+            "video":"assets/report-v4.gif"
+        },
+        {
+            "id": 5,
+            "name":"Collatral Management",
+            "video":"assets/report-v5.gif"
+        }
+
+    ]
+}

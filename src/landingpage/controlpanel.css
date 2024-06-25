@@ -1,0 +1,109 @@
+.controlpan{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.controlhead{
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
+
+}
+.controlhead h1{
+    font-size: 5.5rem;
+}
+.controler{
+    margin: 30px 0px;
+    background-color: #0A0A0A;
+    width: 90%;
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-evenly;
+   
+}
+.controler button{
+    border: none;
+    background-color: #0A0A0A;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: 0.5s;
+}
+.controler button:hover{
+    background: linear-gradient(97deg, #4C9B9B 54%, #290F99 100%);
+font-size: 22px;
+}
+.butn{
+    width: 100%;
+    background-color: #0A0A0A;
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-evenly;
+}
+.controllervid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 40px;
+}
+.controllervid img{
+    width: 70%;
+   border: 2px solid cyan;
+    border-radius: 8px;
+}
+@media (max-width:768px) {
+
+    .controlhead h1{
+        font-size: 0.9rem;
+    }
+    .controler{
+        margin: 20px 0px;
+        background-color: #0A0A0A;
+        width: 90%;
+        align-items: center;
+        display: flex;
+        border-radius: 6px;
+        justify-content: space-evenly;
+        height: 30px;
+       
+    }
+    .controler button{
+        border: none;
+        background-color: #0A0A0A;
+        color: white;
+        font-size: 9px;
+        height: 100%;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        transition: 0.5s;
+    }
+    .controllervid{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        overflow: hidden;
+        height: 200px;
+        margin-bottom: 0px;
+    }
+    .controllervid img{
+        width: 95%;
+       border: 2px solid cyan;
+        border-radius: 8px;
+    }
+}

@@ -1,0 +1,476 @@
+.servicesec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin: 60px;
+    background-color: black;
+
+}
+
+.serbanner {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.serbanner h2 {
+    color: rgb(18, 18, 18);
+    font-size: 250px;
+    position: absolute;
+    top: 50%;
+    right: 14%;
+}
+
+.serbanner h3 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 67%;
+    right: 37%;
+    font-weight: 700;
+}
+
+.bankingsec {
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banktop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banktop p {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.banktop p span {
+    background-color: cyan;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 6px;
+    transition: .8s;
+
+}
+
+.banktop span:hover {
+    background: linear-gradient(115deg, #02b7f9, #03fd80);
+
+}
+
+.bankcards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+
+
+.sericon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(52, 51, 51);
+    transition: .8s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: cyan;
+    font-size: 20px;
+}
+
+
+
+/* tilteffect */
+
+.tilt-box ul {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tilt-box-wrap:hover .sericon {
+    background: linear-gradient(115deg, #02ccf9, #03fd80);
+    color: black;
+}
+
+.tilt-box-wrap {
+    margin-bottom: 30px;
+    width: 20%;
+    position: relative;
+    transition: all 0.6s ease-out;
+    perspective: 1000px
+}
+
+.tilt-box-wrap:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+}
+
+.tilt-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background: linear-gradient(115deg, #2f2f2f, #080808);
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.6s ease-out;
+    transform: rotateX(0deg) rotateY(0deg);
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.t_over {
+    width: 33.333%;
+    height: 33.333%;
+    position: absolute;
+    z-index: 1;
+}
+
+.t_over:nth-child(1) {
+    left: 0;
+    top: 0;
+}
+
+.t_over:nth-child(2) {
+    left: 33.333%;
+    top: 0;
+}
+
+.t_over:nth-child(3) {
+    left: 66.666%;
+    top: 0;
+}
+
+.t_over:nth-child(4) {
+    left: 0;
+    top: 33.333%;
+}
+
+.t_over:nth-child(5) {
+    left: 33.333%;
+    top: 33.333%;
+}
+
+.t_over:nth-child(6) {
+    left: 66.666%;
+    top: 33.333%;
+}
+
+.t_over:nth-child(7) {
+    left: 0;
+    top: 66.666%;
+}
+
+.t_over:nth-child(8) {
+    left: 33.333%;
+    top: 66.666%;
+}
+
+.t_over:nth-child(9) {
+    left: 66.666%;
+    top: 66.666%;
+}
+
+.t_over:nth-child(1):hover~.tilt-box {
+    transform: rotateX(-20deg) rotateY(20deg);
+}
+
+.t_over:nth-child(2):hover~.tilt-box {
+    transform: rotateX(-20deg) rotateY(0deg)
+}
+
+.t_over:nth-child(3):hover~.tilt-box {
+    transform: rotateX(-20deg) rotateY(-20deg)
+}
+
+.t_over:nth-child(4):hover~.tilt-box {
+    transform: rotateX(0deg) rotateY(10deg)
+}
+
+.t_over:nth-child(5):hover~.tilt-box {
+    transform: rotateX(0deg) rotateY(0deg)
+}
+
+.t_over:nth-child(6):hover~.tilt-box {
+    transform: rotateX(0deg) rotateY(-20deg)
+}
+
+.t_over:nth-child(7):hover~.tilt-box {
+    transform: rotateX(20deg) rotateY(20deg);
+}
+
+.t_over:nth-child(8):hover~.tilt-box {
+    transform: rotateX(20deg) rotateY(0deg)
+}
+
+.t_over:nth-child(9):hover~.tilt-box {
+    transform: rotateX(20deg) rotateY(-20deg)
+}
+
+
+.roadmapsec {
+    width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:40px ;
+}
+.roadmaphead{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.roadmap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+position: relative;
+}
+.roadmap img{
+    width: 40%;
+}
+
+.roadmapcardleft{
+    padding: 20px;
+    width: 28%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 59, 59);
+    gap: 20px;
+    border-radius: 6px;
+       border: 2px solid grey;
+}
+.roadmapcardleft:hover{
+    border: 2px solid cyan;
+    background-color: rgb(64, 62, 62);
+}
+.roadmapcardleft p{
+line-height: 30px;
+}
+
+.roadmapcardright{
+    padding: 20px;
+    width: 28%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 59, 59);
+    gap: 20px;
+    border-radius: 6px;
+       border: 2px solid grey;
+
+}
+
+.roadmapcardright:hover{
+    border: 2px solid cyan;
+    background-color: rgb(64, 62, 62);
+}
+.roadmapcardright p{
+line-height: 30px;
+}
+
+@media (min-width:768px) {
+    .right1roadcard{
+        top: 9%;
+        right: 0%;
+    }
+    .left1roadcard{
+        top: 3%;
+        left: 3%;
+    }
+    .right2roadcard{
+        top: 21%;
+        right: 0%;
+    }
+    .left2roadcard{
+        top: 17%;
+        left: 3%;
+    }
+    .right3roadcard{
+        top: 34%;
+        right: 0%;
+    }
+    .left3roadcard{
+        top: 29%;
+        left: 3%;
+    }
+    .right4roadcard{
+        top: 48%;
+        right: 0%;
+    }
+    .left4roadcard{
+        top: 42%;
+        left: 3%;
+    }
+    .right5roadcard{
+        top: 57%;
+        right: 0%;
+    }
+    .left5roadcard{
+        top: 53%;
+        left: 3%;
+    }
+    .right6roadcard{
+        top: 71%;
+        right: 0%;
+    }
+    .left6roadcard{
+        top: 66%;
+        left: 3%;
+    }
+    .right7roadcard{
+        top: 80%;
+        right: 0%;
+    }
+    .left7roadcard{
+        top: 78%;
+        left: 3%;
+    }
+    .left8roadcard{
+        top: 90%;
+        left: 3%;
+    }
+}
+
+@media (max-width:768px) {
+  .mediaroad{
+    width: 80%;
+  }
+  .roadmap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+position: relative;
+gap: 30px;
+}
+.roadmapcardleft{
+    position: relative;
+    
+}
+.roadmapcardright{
+    position: relative;
+}
+.roadmap img{
+    display: none;
+}
+.roadmaphead{
+    font-size: 20px;
+}
+.tilt-box-wrap{
+    width: 40%;
+    font-size: 12px;
+}
+.tilt-box ul{
+    line-height: 9px;
+}
+
+.serbanner {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+
+.serbanner h2 {
+    color: rgb(18, 18, 18);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+
+.serbanner h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    right: 37%;
+    font-weight: 700;
+}
+.banktop p{
+    font-size: 10px;
+}
+.banktop p span{
+    font-size: 7px;
+}
+
+.tilt-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    gap: 5px;
+    padding: 10px;
+    background: linear-gradient(115deg, #2f2f2f, #080808);
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.6s ease-out;
+    transform: rotateX(0deg) rotateY(0deg);
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.sericon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(52, 51, 51);
+    transition: .8s;
+}
+
+
+}
+
+@media (max-width:400px){
+    .tilt-box-wrap{
+        width: 80%;
+        font-size: 12px;
+    }
+    .tilt-box ul{
+        line-height: 9px;
+    }
+    .bankcards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tilt-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        gap: 10px;
+        padding: 10px;
+        background: linear-gradient(115deg, #2f2f2f, #080808);
+        border-radius: 6px;
+        position: relative;
+        transition: all 0.6s ease-out;
+        transform: rotateX(0deg) rotateY(0deg);
+        perspective: 1000px;
+        transform-style: preserve-3d;
+    }
+
+}

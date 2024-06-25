@@ -1,0 +1,192 @@
+.whatdeli {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.whatdeli h1 {
+    width: 100%;
+    font-size: 68px;
+    background: radial-gradient(circle, #0925dcfd, #908fa5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circlegif {
+    width: 80%;
+}
+
+.circlegif img {
+    width: 100%;
+}
+
+.delivercards {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.delecard1 {
+    position: absolute;
+    background-image: linear-gradient(rgb(10, 10, 10), rgb(49, 49, 48));
+    left: 90px;
+    top: 20px;
+    padding: 0px 20px;
+    border-radius: 6px;
+    font-size: 22px;
+
+}
+
+.delecard2 {
+    position: absolute;
+    background-image: linear-gradient(rgb(10, 10, 10), rgb(49, 49, 48));
+    left: 90px;
+    bottom: 0px;
+    padding: 0 20px;
+    border-radius: 6px;
+    font-size: 22px;
+
+}
+
+.delecard3 {
+    position: absolute;
+    background-image: linear-gradient(rgb(10, 10, 10), rgb(49, 49, 48));
+    right: 20px;
+    top: 90px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+
+
+.icon1 {
+    background-color: rgb(66, 240, 246);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+    left: 550px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.icon2 {
+    background-color: rgb(66, 240, 246);
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+    left: 550px;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.icon3 {
+    background-color: rgb(66, 240, 246);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+    right: 470px;
+    top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.meds,
+.med {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .whatdeli {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+    }
+
+
+    .whatdeli h1 {
+        width: 100%;
+        font-size: 1.3rem;
+        background: radial-gradient(circle, #04f1e9fd, #3404f6f3);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .circlegif {
+        display: none;
+    }
+
+    .circlegif img {
+        display: none;
+    }
+
+    .delivercards,
+    .delecard1,
+    .delecard2,
+    .delecard3 {
+        display: none;
+    }
+
+    .med {
+        background-image: linear-gradient(rgb(10, 10, 10), rgb(49, 49, 48));
+        border: 2px solid cyan;
+        padding: 5px;
+        border-radius: 6px;
+        font-size: 12px;
+        width: 100%;
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+.med p{
+    margin-bottom: 10px;
+}
+    .meds {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .meds,
+    .med {
+        display: block;
+    }
+
+    .icon1,
+    .icon2,
+    .icon3 {
+        display: none;
+    }
+}
