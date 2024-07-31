@@ -6,14 +6,14 @@ import Footer from './landingpage/Footer'
 const Contactfoot = () => {
   return (
     <div className='contactfoot'>
-        <div className="contactfooter">
-            Contact us
-        </div>
-        <div className="contsecback">
-  <Contact/>
+      <div className="contactfooter">
+        Contact  us on
+      </div>
+      <div className="contsecback">
+        <Contact />
 
-        </div>
-     <Footer/>
+      </div>
+      <Footer />
     </div>
   )
 }
